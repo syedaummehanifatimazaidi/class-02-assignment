@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.homeContainer {
+  background-color: rgb(96, 22, 22);
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 5px 5px 5px #ffffff;
+}
+.childContainer {
+  font-size: 45px;
+  margin-left: 30px;
+  margin-top: 45px;
+  font-weight:bolder
+}
+.aqua{
+  color: #f6feff;
+}
+.childContainer{
+  margin-top: 40px;
+  margin-left: 50px;
+  padding-right: 50px;
+}
+.profile{
+  border-radius: 55%;
+  margin-top: 60px;
+}
